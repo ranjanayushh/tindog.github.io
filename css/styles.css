@@ -1,0 +1,186 @@
+#title{
+    background-color: rgb(245, 98, 123);
+    color: #fff;
+}
+
+ h1{
+    font-family: 'Montserrat-Black Alternates', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    position: relative;
+    bottom: 3rem;
+}
+
+h3{
+    font-family: 'Montserrat-Bold';
+    font-weight: bold;
+}
+
+
+h2{
+    font-family: 'Montserrat-Bold';
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 2rem;
+}
+
+.container-fluid
+{
+    padding: 3% 15%;
+}
+
+body
+{
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Navigation bar  */
+.navbar-brand
+{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar
+{
+    padding:0 0 4.5rem;
+}
+
+.nav-item
+{
+    padding: 0 1rem;
+}
+
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+/* buttons */
+.btn
+{
+    margin: 5% 3% 5% 0;
+}
+
+/* title image  */
+.dog-img{
+    width: 60%;
+    /* height: 200px; */
+    transform: rotate(25deg);
+    position: relative;
+    left: 6rem;
+    /* z-index: -1; */
+}
+/* Features section */
+#features
+{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    bottom: 10rem;
+    z-index: 1;
+}
+
+.feature-box
+{
+    text-align: center;
+    padding: 5%;
+}
+.row p
+{
+    color: grey;
+}
+
+.icon
+{
+    color: rgb(243, 141, 104);
+    margin-bottom: 1rem;
+}
+
+.icon:hover
+{
+    color: rgb(245, 98, 123);
+}
+
+/* Testimonial Section  */
+
+#testimonials
+{
+    padding: 7%;
+    text-align: center;
+    background-color: rgb(243, 141, 104);
+    color: #fff;
+}
+
+.testimonial-image
+{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20;
+}
+
+#press
+{
+    background-color: rgb(243, 141, 104);
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.pree-img
+{
+    width: 15%;
+    margin: 1.5rem 1.5rem 6rem;
+}
+
+/* Pricing */
+.card{
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
+
+#pricing
+{
+    margin: 6rem;
+}
+
+/* CTA section  */
+#cta{
+    background:#ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#cta h3{
+    font-family: 'Montserrat-Black Alternates', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Footer  */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.f-icon{
+    margin: 20px 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .dog-img{
+        margin-bottom: 10rem;
+        transform: rotate(0);
+        z-index: 0;
+    }
+
+    #feature{
+        position: relative;
+        z-index: 0;
+    }
+}
